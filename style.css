@@ -8,8 +8,35 @@
   /* Generics */
   body {
     font-family: sans-serif;
+    background-color: black;
   }
   
+header {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    
+}
+
+
+
+
+footer {
+    height: 60px;
+    background-color: #222222;
+    
+}
+
+.col {
+    flex-basis: calc(100% / 7);
+    /* border: 2px dashed black; */
+    margin-top: 100px;
+}
+
+
+
   /* Utils */
   
   .container {
