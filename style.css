@@ -108,10 +108,10 @@ span{
     align-items: center;
 } 
 .footright{
-    height: 100%; 
+    height: 0%;
     text-align: center;
     position: relative;
-    bottom: calc(55px / 2);
+    bottom: 50px;
     
 }
 .end{
