@@ -1,49 +1,124 @@
 /* Reset */
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Generics */
-  body {
+    box-sizing: border-box; 
     font-family: sans-serif;
+} 
+
+/*generics*/ 
+
+.container{
+ width: 80%;
+ margin: 10px auto; 
+ 
+ min-height: 100%;
+}
+
+.inline-block{
+    display: inline-block;
+} 
+
+
+
+
+ /*Header*/
+
+header{
     background-color: black;
-  }
-  
-header {
-    background-color: black;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    color: aliceblue;
-    
+    height: 80px; 
+    color: white;
 }
 
-
-
-
-footer {
-    height: 60px;
-    background-color: #222222;
-    
-}
-
-.col {
-    flex-basis: calc(100% / 7);
-    /* border: 2px dashed black; */
-    margin-top: 100px;
-}
-
-
-
-  /* Utils */
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .flex {
+.speaker { 
     display: flex;
-  }
+    justify-content: end;
+    
+} 
+
+.screen{
+    padding: 5px; 
+    margin: 0 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgba(58, 56, 56, 0.5);
+} 
+
+.fa-table-cells{
+    margin-right: 2px;
+}
+
+
+/*main*/
+  
+main{
+    background-color: black;
+    height: calc(100vh - 135px); 
+    overflow-y: auto; 
+    color: white;
+}
+ 
+
+
+.col{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.card{
+    position: relative;
+    padding: 0 5px;
+}
+
+.user-info{
+    position: absolute; 
+    padding: 5px;
+    left: 10px;
+    bottom: 5px;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*footer*/ 
+
+footer{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    height: 55px; 
+    font-size: 18px;
+}  
+.add{
+    padding: 0 5px;
+} 
+.fa-chevron-up{
+    font-size: 12px;
+}
+
+.fa-share-from-square{
+    color: rgb(162, 227, 66);
+}
+span{
+    font-size: 12px;
+}
+
+.navbar{
+    height: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+} 
+.footright{
+    height: 100%; 
+    text-align: center;
+    position: relative;
+    bottom: calc(55px / 2);
+    
+}
+.end{
+    display: block;
+    width: 80px; 
+    height: 100%; 
+    line-height: 100px;
+    background-color: rgba(58, 56, 56, 0.5); 
+    color: red;
+}
