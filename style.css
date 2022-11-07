@@ -107,6 +107,11 @@ span{
     justify-content: space-between;
     align-items: center;
 } 
+
+.footmiddle {
+    text-align: center;
+}
+
 .footright{
     height: 0%;
     text-align: center;
